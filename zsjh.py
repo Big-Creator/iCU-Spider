@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 # author:joel 18-5-13
-import pymongo
 
+import pymongo
 import requests
 import re
 import randomhms
