@@ -38,7 +38,6 @@ class Spider():
             tim.append(i[4])
             time = str.join(tim)
             # now = datetime.datetime.now()
-            #定义了一个随机生成时间点的函数，导入后组合
             hour = randomhms.randomhms()
             time = time+" "+hour
             # print time
