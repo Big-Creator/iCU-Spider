@@ -27,7 +27,6 @@ class Spider():
         for xw in xw_url:
             url = 'http://zs.tjcu.edu.cn/yxzy/' + xw
             url_list.append(url)
-        # print url_list
         for url in url_list:
             xw_html = self.getHtml(url)
             result = re.findall('<!-- Card -->(.*?)<!-- End Card -->', xw_html, re.S)
