@@ -43,7 +43,7 @@ class Spider():
                 content[0] = re.sub(jpgsrc, 'http://zs.tjcu.edu.cn/__local', content[0])
                 info1['content'] = content[0]
                 info1['tagid'] = "[\"003\"]"
-                info1['typeid'] = 3  # 天津商业大学2015-2017年XXX录取情况一览表
+                info1['typeid'] = 3  # 2015-2017年XXX录取情况一览表
                 if info1 not in data:
                     data.append(info1)
         # print data
