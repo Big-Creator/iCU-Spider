@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
-# author:joel 18-5-31
+
 import pymongo
 import re
 import datetime
