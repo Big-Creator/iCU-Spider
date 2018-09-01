@@ -9,7 +9,6 @@ import randomhms
 
 # 天商印象
 class Spider():
-
     def getHtml(self, url):
         r = requests.get(url)
         r.encoding = 'utf-8'
